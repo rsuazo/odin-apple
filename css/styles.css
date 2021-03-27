@@ -1,0 +1,189 @@
+
+body {
+  margin: 0px;
+}
+
+.avenger {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  background-color: grey;
+  position: relative;
+  top: 50px;
+  height: 35px;
+
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.avenger .button {
+  width: 103px;
+  border: none;
+  background-image: linear-gradient(rgb(138, 138, 138), rgb(104, 104, 104) 50%, rgb(89, 89, 89) 50%, rgb(117, 117, 117) 100%);
+    color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#apple {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#search {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.wrapper {
+  display: grid;
+  height: 110vh;
+  margin-top: -50px;
+  grid-template-rows: 63% 1fr 10.6%;
+  row-gap: 1px;
+}
+
+.main_content {
+  background-image: url("../images/your_verse_hero_2x.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+
+}
+
+.small {
+  width: 900px;
+}
+
+.small_subhead {
+  width: 900px; 
+  margin-top: -30px;
+}
+
+.subheadline {
+
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+}
+
+.final {
+  width: 700px;
+}
+
+.content_tiles {
+  display: grid;
+  grid-template-columns: 4 (4,1fr);
+  column-gap: 1px;
+  grid-auto-flow: column;
+}
+
+.content_tile:nth-child(2n) {
+}
+
+.content_tile:nth-child(2n-1) {
+}
+
+#image_1 {
+  background-image: url("../images/promo_iphone5s_2x.jpeg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: -50px 0px;
+  background-clip: padding-box;
+}
+
+#image_2 {
+  background-image: url("../images/promo_iphone5c_2x.jpeg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: -50px 0px;
+  background-clip: padding-box;
+}
+
+#image_3 {
+  background-image: url("../images/promo_30_years_2x.jpeg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: -50px 0px;
+  background-clip: padding-box;
+}
+
+#image_4 {
+  background-image: url("../images/promo_supplier_responsibility_2x.jpeg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: -50px 0px;
+  background-clip: padding-box;
+}
+
+
+.footer {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+  justify-items: stretch;
+  color: rgb(110,110,110);
+}
+
+
+.footer_tile1 {
+
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Arial, Verdana;
+  font-size: 10.0008px;
+  font-weight: 400;
+  line-height: 12.001px;
+  padding-top: 15.0012px;
+  text-align: center;
+  /* width: 480.188px; */
+}
+
+.footer_tile2 {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Arial, Verdana;
+  font-size: 10.0008px;
+  font-weight: 400;
+  line-height: 12.001px;
+  padding-top: 15.0012px;
+  text-align: center;
+  /* width: 480.188px; */
+}
+
+.footer_tile3 {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Arial, Verdana;
+  font-size: 10.0008px;
+  font-weight: 400;
+  line-height: 12.001px;
+  text-align: center;
+  /* width: 480.188px; */
+}
+
+a:link {
+  color: rgb(0,136,204);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0,136,204);
+  text-decoration: none;
+}
+
+.footer_tile4 {
+  color: rgb(110,110,110);
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Arial, Verdana;
+  font-size: 10.0008px;
+  font-weight: 400;
+  line-height: 12.001px;
+  text-align: left;
+  /* width: 480.188px; */
+}
